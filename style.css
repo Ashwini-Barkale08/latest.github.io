@@ -1,0 +1,1155 @@
+
+
+
+/*---------------------------------------
+# General
+---------------------------------------*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-------------------------------
+BODY
+--------------------------------*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/*---------------------------------------
+#NAVBAR
+---------------------------------------*/
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(25, 28, 31, 0.8);
+  padding: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 22px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: palevioletred;
+}
+
+.menu li a.active {
+  color: palevioletred;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+* Mobile Navigation 
+*/
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------
+# HOME SECTION
+---------------------------------------*/
+
+.home-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('images/home.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ 
+}
+
+/*---------------------------------------
+# TEXT - STROKE
+---------------------------------------*/
+.text-stroke {
+  color: dark whitesmoke;
+  -webkit-text-stroke: 1px #FF69B4; /* For Webkit-based browsers */
+  text-stroke: 1px pink;
+}
+
+
+h6 {
+  color: white; /* Set the text color */
+  -webkit-text-stroke: 1px black; /* Add text stroke for WebKit browsers */
+  text-stroke: 2px dark whitesmoke; /* Add text stroke for other browsers */
+}
+
+.scroll-down-button {
+  /* Add your button styles here */
+  color: black;
+  -webkit-text-stroke: 2px #FF69B4;; /* For Webkit-based browsers */
+  text-stroke: 2px pink;
+}
+
+/*---------------------------------------
+# HOME-CONTENT
+---------------------------------------*/
+
+.home-content {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.home-content h1 {
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 3px;
+ 
+  font-family: 'Oleo Script', cursive;
+}
+
+.home-content h6 {
+  font-size: 17px;
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+ 
+ /*---------------------------------------
+# SCROLL-DOWN
+---------------------------------------*/
+                                 
+.scroll-down-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.scroll-down-button i {
+  animation: dancing 1s infinite;
+}
+
+@keyframes dancing {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------
+# SECTION-STYLE
+---------------------------------------*/
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+.section:nth-child(even) {
+  background-color: #fff;
+}
+
+/*----------------------------------------------------
+# About Me
+-----------------------------------------------------*/
+
+
+
+.section-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:  #555555;
+}
+
+.section-title p {
+  font-size: 18px;
+  color: #888;
+  line-height: 26px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#about {
+  background-color: dark whitesmoke;
+  padding: 120px 0;
+}
+                          
+#about .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#about .section-title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+#about .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#about .section-title p {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+/*---------------------------------------
+# ANIMATED-SKILL BAR
+---------------------------------------*/
+.skills-content .row {
+  margin-bottom: 20px;
+}
+
+.skills-content .row .col-lg-6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.skills-content .info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-content .info-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skills-content .info-list li i {
+  margin-right: 5px;
+}
+
+.skills-content .info-list li strong {
+  margin-right: 5px;
+}
+
+#about .col-lg-6 {
+  flex: 0 0 50%;
+}
+
+#about .image-container img {
+  max-width: 100%;
+  
+  display: block;
+ 
+}
+
+#about .skills-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#about .skills-content ul li {
+  margin-bottom: 15px;
+}
+
+#about .skills-content ul li span {
+  font-weight: bold;
+}
+
+.skills-content {
+  margin-top: 20px;
+}
+
+.progress {
+  margin-bottom: 20px;
+}
+
+.progress-bar-wrap {
+  background-color: wheat;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: palevioletred;
+  height: 100%;
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.val {
+  font-weight: bold;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0;
+  }
+}
+
+.progress-bar-wrap.active .progress-bar {
+  animation: progressAnimation 1s ease-in-out;
+}
+
+                                                                                                                                                                     
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/*-------------------------------------------
+# My Resume
+---------------------------------------------*/
+
+#resume {
+  background-color: dark whitesmoke;
+  padding: 120px 0;
+}
+
+.section-title h3{
+  font-size: 40px;
+  color:  #555555;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section-title p{
+  font-size: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+.resume .resume-item {
+  padding: 20px;
+  margin-top: 20px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: palevioletred;
+  margin-bottom: 18px;
+}
+
+.resume .resume-item h5 {
+  font-size: 18px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
+}
+
+.resume .container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .container .col-lg-6 {
+  flex-basis: 48%; /* Adjust as needed */
+}
+
+@media (max-width: 991px) {
+  .resume .container .row {
+    flex-wrap: wrap;
+  }
+  .resume .container .col-lg-6 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/*---------------------------------------
+# SERVICES
+---------------------------------------*/
+    #services {
+      background-color: dark whitesmoke;
+      padding: 120px 0;
+    }
+    
+    .services-title h2 {
+      text-align: center;
+      margin-bottom: 100px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:  #555555;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    
+    
+    .service-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .service-item i {
+      border-radius: 50%;
+      background-color: pink;
+      color: #FFFFFF;
+      padding: 20px;
+      font-size: 30px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 80px;
+      box-sizing: border-box;
+      
+    }
+    
+    .service-item h3,
+    .service-item p {
+      margin: 10px;
+    }
+        
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 70px;
+    }
+    
+    .service-item {
+      background-color: #fff;
+      padding: 60px;
+      border-radius: 5px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    
+    .service-item h3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-family:sans-serif;
+    }
+    
+    .service-item p {
+      font-size: 16px;
+      color: #666;
+    }
+    
+    .services-grid .service-item {
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    /*---------------------------------------
+    # CONTACT
+   --------------------------------------*/
+    #contact {
+      background-color: dark whitesmoke;
+      padding: 130px 0;
+    }    
+    .section-title {
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 100px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:  #555555;
+      text-transform: uppercase;
+    }
+    
+
+    
+    
+   .fa-envelope{
+    margin-bottom: 25px;
+    font-weight: bold;
+   }
+
+   .profile-item b{
+    font-size: 20px;
+    color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   }
+   
+   .profile-item p{
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+   }
+
+
+
+
+
+   
+  
+
+
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+    }
+    
+    .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 15px;
+    }
+    
+    .social-profile {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .profile-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      transition: box-shadow 0.3s;
+      padding: 30px;
+    }
+    
+     
+
+    
+    
+    .profile-item i {
+      border-radius: 50%; /* Make the icon round */
+      border: 2px solid pink; /* Add a border to the icon */
+      padding: 15px; /* Adjust the padding as needed */
+    }
+    
+    .profile-item a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px;
+      text-decoration: none;
+      color: palevioletred;
+    }
+    
+    
+    .profile-item a {
+      color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+
+    .social-profile .profile-item {
+      margin-bottom: 40px; /* Add more space between the boxes */
+    }
+    
+
+
+    .social-profile .profile-item i {
+      transition: color 0.3s ease; /* Add transition for smooth effect */
+    }
+    
+    .social-profile .profile-item i:hover {
+      color: pink; /* Set the hover color */
+    }
+
+    
+
+
+    
+    
+
+
+
+
+
+    .profile-item i {
+      border-radius: 50%; /* Make the icon round */
+      padding: 18px; /* Adjust the padding as needed */
+      background-color: pink; /* Fill the body of the icon with a color */
+      color: white; /* Set the color of the icon to white */
+    }
+    
+    .email-item,
+    .github-item {
+      flex: 0 0 calc(50% - 10px);
+      max-width: calc(50% - 10px);
+    }
+    
+    .email-item:hover,
+    .github-item:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .email-item i,
+    .github-item i {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    
+    .contact-form {
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      padding: 36px;
+    }
+    
+    .contact-form .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .contact-form .form-control {
+      width: 100%;
+      padding: 20px 15px;
+      border: 3px solid #dcdcdc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    
+    .contact-form textarea.form-control {
+      height: 190px;
+     
+    }
+    
+    .contact-form .btn-primary {
+      background-color: palevioletred;
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .contact-form .btn-primary:hover {
+      background-color:aqua;
+    }
+    
+    .message-box {
+      margin-top: 20px;
+    }
+    
+    .loading,
+    .error-message,
+    .sent-message {
+      display: none;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 5px;
+    }
+    
+    .loading {
+      background-color: #007bff;
+    }
+    
+    .error-message {
+      background-color: #dc3545;
+    }
+    
+    .sent-message {
+      background-color: #28a745;
+    }
+    
+    /*---------------------------------------
+    # FOOTER
+  --------------------------------------*/
+     
+    #footer {
+      background: url("images/footer\ image1.jpeg") top center no-repeat;
+      background-size: cover;
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      padding: 80px 0;
+      position: relative;
+      
+    }
+    
+    #footer::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+    }
+    
+    #footer .container {
+      position: relative;
+    }
+    
+    #footer h3 {
+      font-size: 38px;
+      font-weight: 700;
+      color: #fff;
+      position: relative;
+      font-family: "Satisfy", serif;
+      padding: 0;
+      margin: 0 0 15px 0;
+      font-family: 'Oleo Script', cursive;
+    }
+    
+    #footer p {
+      font-size: 15px;
+      font-style: italic;
+      padding: 0;
+      margin: 0 0 40px 0;
+    }
+    
+    #footer .social-links {
+      margin: 0 0 40px 0;
+    }
+    
+    #footer .social-links a {
+      font-size: 18px;
+      display: inline-block;
+      background: aqua;
+      color: #fff;
+      line-height: 1;
+      padding: 8px 0;
+      margin-right: 4px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+    }
+    
+    #footer .social-links a:hover {
+      background: palevioletred;
+      color: palevioletred;
+      text-decoration: none;
+    }
+    
+    #footer .copyright {
+      margin: 0 0 5px 0;
+    }
+    
+    #footer .credits {
+      font-size: 13px;
+    }
+    
+      /*---------------------------------------
+           # SCROLL-UP
+     ---------------------------------------*/
+
+     
+     .scroll-up-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: pink;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      color: #000000;
+      font-size: 20px;
+      text-decoration: none;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    
+    .scroll-up-button.show {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .scroll-up-button:hover {
+      background-color: aqua;
+    }
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+   
